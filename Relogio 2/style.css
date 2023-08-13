@@ -1,0 +1,64 @@
+
+
+*{
+    font-family: 'Orbitron', sans-serif;
+    margin: 0; 
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background: rgb(93,212,189);
+    background: linear-gradient(162deg, rgba(93,212,189,1) 4%, rgba(83,60,117,1) 29%, rgba(92,61,125,1) 57%, rgba(212,93,214,0.9895287958115183) 81%);background: rgb(93,212,189);
+    background: linear-gradient(162deg, rgba(93,212,189,1) 4%, rgba(83,60,117,1) 29%, rgba(92,61,125,1) 57%, rgba(212,93,214,0.9895287958115183) 81%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.relogio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 220px;
+    width: 600px;
+    background-color: transparent;
+    border-radius: 15px;
+    box-shadow: 0   0  8px  10px rgba(143, 240, 195, 0.5);
+}
+.relogio div{
+    height: 170px; 
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(240, 22, 207, 0.183) ;
+    box-shadow: 3px 3px 10px rgba(176, 249, 220, 0.642);
+    border-radius: 15px;
+    letter-spacing: 3px;
+}
+.relogio span{
+    font-size: 12px;    
+}
+
+#horas{
+    font-size: 60px;
+    font-weight: bold;  
+}
+#minutos{
+    font-size: 60px;
+    font-weight: bold;  
+}
+#segundos{
+    font-size: 60px;
+    font-weight: bold;  
+}
+
+.assinatura{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    font-size: 16px;
+    color: #fff;
+}
